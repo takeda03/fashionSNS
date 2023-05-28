@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE1B04022973A69A00B51DD8 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1B04012973A69A00B51DD8 /* ListViewController.swift */; };
+		EE1B04042973A6C500B51DD8 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1B04032973A6C500B51DD8 /* PostViewController.swift */; };
+		EE1B04072973CE9900B51DD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1B04052973CE9900B51DD8 /* ViewController.swift */; };
+		EE1B040C2973CF0200B51DD8 /* ListViewControllerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE1B040A2973CF0200B51DD8 /* ListViewControllerCell.xib */; };
+		EE1B040F2973D00C00B51DD8 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1B040D2973D00C00B51DD8 /* ListTableViewCell.swift */; };
+		EE1B04102973D00C00B51DD8 /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE1B040E2973D00C00B51DD8 /* ListTableViewCell.xib */; };
 		EE464BCC2945821A0029A9E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE464BCB2945821A0029A9E8 /* AppDelegate.swift */; };
 		EE464BCE2945821A0029A9E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE464BCD2945821A0029A9E8 /* SceneDelegate.swift */; };
-		EE464BD02945821A0029A9E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE464BCF2945821A0029A9E8 /* ViewController.swift */; };
 		EE464BD32945821A0029A9E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE464BD12945821A0029A9E8 /* Main.storyboard */; };
 		EE464BD52945821B0029A9E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE464BD42945821B0029A9E8 /* Assets.xcassets */; };
 		EE464BD82945821B0029A9E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE464BD62945821B0029A9E8 /* LaunchScreen.storyboard */; };
 		EE464BE32945821B0029A9E8 /* fashionSNSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE464BE22945821B0029A9E8 /* fashionSNSTests.swift */; };
 		EE464BED2945821B0029A9E8 /* fashionSNSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE464BEC2945821B0029A9E8 /* fashionSNSUITests.swift */; };
 		EE464BEF2945821B0029A9E8 /* fashionSNSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE464BEE2945821B0029A9E8 /* fashionSNSUITestsLaunchTests.swift */; };
+		EE464BFC2945827E0029A9E8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE464BFB2945827E0029A9E8 /* GoogleService-Info.plist */; };
+		EE464BFF2945837F0029A9E8 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = EE464BFE2945837F0029A9E8 /* FirebaseAuth */; };
+		EE464C012945837F0029A9E8 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = EE464C002945837F0029A9E8 /* FirebaseAuthCombine-Community */; };
+		EE464C032945837F0029A9E8 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = EE464C022945837F0029A9E8 /* FirebaseFirestore */; };
+		EE464C052945837F0029A9E8 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = EE464C042945837F0029A9E8 /* FirebaseFirestoreCombine-Community */; };
+		EE464C072945837F0029A9E8 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = EE464C062945837F0029A9E8 /* FirebaseFirestoreSwift */; };
+		EE464C092945837F0029A9E8 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = EE464C082945837F0029A9E8 /* FirebaseStorage */; };
+		EE464C0B2945837F0029A9E8 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = EE464C0A2945837F0029A9E8 /* FirebaseStorageCombine-Community */; };
+		EE464C0F2945AB300029A9E8 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE464C0E2945AB300029A9E8 /* TopViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +50,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE1B04012973A69A00B51DD8 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		EE1B04032973A6C500B51DD8 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		EE1B04052973CE9900B51DD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE1B040A2973CF0200B51DD8 /* ListViewControllerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListViewControllerCell.xib; sourceTree = "<group>"; };
+		EE1B040D2973D00C00B51DD8 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		EE1B040E2973D00C00B51DD8 /* ListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
 		EE464BC82945821A0029A9E8 /* fashionSNS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fashionSNS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE464BCB2945821A0029A9E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE464BCD2945821A0029A9E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EE464BCF2945821A0029A9E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EE464BD22945821A0029A9E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE464BD42945821B0029A9E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE464BD72945821B0029A9E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +68,9 @@
 		EE464BE82945821B0029A9E8 /* fashionSNSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fashionSNSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE464BEC2945821B0029A9E8 /* fashionSNSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fashionSNSUITests.swift; sourceTree = "<group>"; };
 		EE464BEE2945821B0029A9E8 /* fashionSNSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fashionSNSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EE464BFB2945827E0029A9E8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EE464C0E2945AB300029A9E8 /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		EEB5A32A2986392400D8F449 /* VAL-UltraBlack.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VAL-UltraBlack.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE464C072945837F0029A9E8 /* FirebaseFirestoreSwift in Frameworks */,
+				EE464C0B2945837F0029A9E8 /* FirebaseStorageCombine-Community in Frameworks */,
+				EE464BFF2945837F0029A9E8 /* FirebaseAuth in Frameworks */,
+				EE464C052945837F0029A9E8 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				EE464C012945837F0029A9E8 /* FirebaseAuthCombine-Community in Frameworks */,
+				EE464C032945837F0029A9E8 /* FirebaseFirestore in Frameworks */,
+				EE464C092945837F0029A9E8 /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +108,7 @@
 		EE464BBF2945821A0029A9E8 = {
 			isa = PBXGroup;
 			children = (
+				EEB5A329298638F200D8F449 /* fonts */,
 				EE464BCA2945821A0029A9E8 /* fashionSNS */,
 				EE464BE12945821B0029A9E8 /* fashionSNSTests */,
 				EE464BEB2945821B0029A9E8 /* fashionSNSUITests */,
@@ -101,11 +131,18 @@
 			children = (
 				EE464BCB2945821A0029A9E8 /* AppDelegate.swift */,
 				EE464BCD2945821A0029A9E8 /* SceneDelegate.swift */,
-				EE464BCF2945821A0029A9E8 /* ViewController.swift */,
-				EE464BD12945821A0029A9E8 /* Main.storyboard */,
+				EE464C0E2945AB300029A9E8 /* TopViewController.swift */,
+				EE1B04012973A69A00B51DD8 /* ListViewController.swift */,
+				EE1B040D2973D00C00B51DD8 /* ListTableViewCell.swift */,
+				EE1B040E2973D00C00B51DD8 /* ListTableViewCell.xib */,
+				EE1B04052973CE9900B51DD8 /* ViewController.swift */,
+				EE1B04032973A6C500B51DD8 /* PostViewController.swift */,
 				EE464BD42945821B0029A9E8 /* Assets.xcassets */,
+				EE464BD12945821A0029A9E8 /* Main.storyboard */,
+				EE1B040A2973CF0200B51DD8 /* ListViewControllerCell.xib */,
 				EE464BD62945821B0029A9E8 /* LaunchScreen.storyboard */,
 				EE464BD92945821B0029A9E8 /* Info.plist */,
+				EE464BFB2945827E0029A9E8 /* GoogleService-Info.plist */,
 			);
 			path = fashionSNS;
 			sourceTree = "<group>";
@@ -127,6 +164,14 @@
 			path = fashionSNSUITests;
 			sourceTree = "<group>";
 		};
+		EEB5A329298638F200D8F449 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EEB5A32A2986392400D8F449 /* VAL-UltraBlack.otf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +188,15 @@
 			dependencies = (
 			);
 			name = fashionSNS;
+			packageProductDependencies = (
+				EE464BFE2945837F0029A9E8 /* FirebaseAuth */,
+				EE464C002945837F0029A9E8 /* FirebaseAuthCombine-Community */,
+				EE464C022945837F0029A9E8 /* FirebaseFirestore */,
+				EE464C042945837F0029A9E8 /* FirebaseFirestoreCombine-Community */,
+				EE464C062945837F0029A9E8 /* FirebaseFirestoreSwift */,
+				EE464C082945837F0029A9E8 /* FirebaseStorage */,
+				EE464C0A2945837F0029A9E8 /* FirebaseStorageCombine-Community */,
+			);
 			productName = fashionSNS;
 			productReference = EE464BC82945821A0029A9E8 /* fashionSNS.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +269,9 @@
 				Base,
 			);
 			mainGroup = EE464BBF2945821A0029A9E8;
+			packageReferences = (
+				EE464BFD2945837F0029A9E8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = EE464BC92945821A0029A9E8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,7 +289,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE464BD82945821B0029A9E8 /* LaunchScreen.storyboard in Resources */,
+				EE1B04102973D00C00B51DD8 /* ListTableViewCell.xib in Resources */,
+				EE464BFC2945827E0029A9E8 /* GoogleService-Info.plist in Resources */,
 				EE464BD52945821B0029A9E8 /* Assets.xcassets in Resources */,
+				EE1B040C2973CF0200B51DD8 /* ListViewControllerCell.xib in Resources */,
 				EE464BD32945821A0029A9E8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,8 +318,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE464BD02945821A0029A9E8 /* ViewController.swift in Sources */,
+				EE1B040F2973D00C00B51DD8 /* ListTableViewCell.swift in Sources */,
+				EE1B04072973CE9900B51DD8 /* ViewController.swift in Sources */,
+				EE1B04042973A6C500B51DD8 /* PostViewController.swift in Sources */,
+				EE464C0F2945AB300029A9E8 /* TopViewController.swift in Sources */,
 				EE464BCC2945821A0029A9E8 /* AppDelegate.swift in Sources */,
+				EE1B04022973A69A00B51DD8 /* ListViewController.swift in Sources */,
 				EE464BCE2945821A0029A9E8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,6 +504,8 @@
 				DEVELOPMENT_TEAM = P93D33L4VL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = fashionSNS/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "本体のカメラを利用します";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "フォトライブラリにアクセスします";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -450,7 +516,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Storyboard.fashionSNS;
+				PRODUCT_BUNDLE_IDENTIFIER = tamako.fashionSNS.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -468,6 +534,8 @@
 				DEVELOPMENT_TEAM = P93D33L4VL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = fashionSNS/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "本体のカメラを利用します";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "フォトライブラリにアクセスします";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -478,7 +546,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Storyboard.fashionSNS;
+				PRODUCT_BUNDLE_IDENTIFIER = tamako.fashionSNS.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -602,6 +670,55 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EE464BFD2945837F0029A9E8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EE464BFE2945837F0029A9E8 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE464BFD2945837F0029A9E8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		EE464C002945837F0029A9E8 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE464BFD2945837F0029A9E8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		EE464C022945837F0029A9E8 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE464BFD2945837F0029A9E8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		EE464C042945837F0029A9E8 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE464BFD2945837F0029A9E8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		EE464C062945837F0029A9E8 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE464BFD2945837F0029A9E8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		EE464C082945837F0029A9E8 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE464BFD2945837F0029A9E8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		EE464C0A2945837F0029A9E8 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE464BFD2945837F0029A9E8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EE464BC02945821A0029A9E8 /* Project object */;
 }

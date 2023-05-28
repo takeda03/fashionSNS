@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>159969267252-52n2bk8c3a3u5meqo0rg7p19h1ntrc3t.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.159969267252-52n2bk8c3a3u5meqo0rg7p19h1ntrc3t</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBYeMknmCC1kIDNJkho_e1ejojINXHyKWQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>159969267252</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>tamako.fashionSNS.com</string>
+	<key>PROJECT_ID</key>
+	<string>fashionsns-7dfe1</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fashionsns-7dfe1.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:159969267252:ios:7a07fd0144f278bb728461</string>
+</dict>
+</plist>
