@@ -12,9 +12,7 @@ import FirebaseFirestore
 class ListViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
     @IBOutlet var tableView: UITableView!
-    @IBAction func segmentedControl(_ sender: UISegmentedControl) {
-           print(sender.titleForSegment(at: sender.selectedSegmentIndex)!)
-       }
+   
 
     var userListener: ListenerRegistration?
     var postListener: ListenerRegistration?
@@ -116,7 +114,9 @@ class ListViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
                 }
             }
         }
-        
+    @IBAction func segmentedControl(_ sender: UISegmentedControl) {
+           print(sender.titleForSegment(at: sender.selectedSegmentIndex)!)
+       }
     
 } //owari^^
     

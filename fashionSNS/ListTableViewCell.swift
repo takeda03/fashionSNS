@@ -16,7 +16,7 @@ class ListTableViewCell: UITableViewCell {
     @IBOutlet var nicebutton: UIButton!
     
     
-    @IBAction func nicebuttonTapped(sender: AnyObject){
+    @IBAction func nicebuttonTapped(){
         if  nicebutton.backgroundColor == UIColor.gray {
             nicebutton.backgroundColor = UIColor.blue
            }

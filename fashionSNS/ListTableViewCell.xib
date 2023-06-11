@@ -72,7 +72,7 @@
                         <state key="normal" title="Button"/>
                         <buttonConfiguration key="configuration" style="plain" title="💖"/>
                         <connections>
-                            <action selector="tapnicebutton" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Unz-Uu-RFp"/>
+                            <action selector="nicebuttonTapped" destination="KGk-i7-Jjw" eventType="touchUpInside" id="fVu-fr-3TW"/>
                         </connections>
                     </button>
                 </subviews>
