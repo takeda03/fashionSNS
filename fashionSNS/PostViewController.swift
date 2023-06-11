@@ -48,7 +48,7 @@ class PostViewController: UIViewController, UIImagePickerControllerDelegate, UIN
             if(titleTextField.text != "" && contentTextView.text != ""){
                 // ドキュメントを設定する
             var ref: DocumentReference? = nil
-                ref = Firestore.firestore().collection("cities").addDocument(data: [
+                ref = Firestore.firestore().collection("posts").addDocument(data: [
                     "title": titleTextField.text ?? "title:Error",
                     "content": contentTextView.text ?? "content:Error",
                     "uid": Auth.auth().currentUser?.uid ?? "uid:Error",
@@ -84,6 +84,16 @@ class PostViewController: UIViewController, UIImagePickerControllerDelegate, UIN
                                 print("error!",error)
                               return
                             }
+                              // ドキュメントを上書きする
+                              Firestore.firestore().collection("posts").document("\(ref!.documentID)").updateData([
+                            "url": url
+                          ]) { err in
+                            if let err = err {
+                              print("Error updating document: \(err)")
+                            } else {
+                              print("Document successfully written!")
+                            }
+                          }
                           }
                         }
                }

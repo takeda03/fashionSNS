@@ -43,9 +43,18 @@ class ListViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         cell.nameLabel.text = cellArray[indexPath.row]["name"] ?? "Name:Error"
         cell.titleLabel.text = cellArray[indexPath.row]["title"] ?? "Title:Error"
         cell.contentTextView.text = cellArray[indexPath.row]["content"] ?? "Content:Error"
+//        let url = URL(string: cellArray[indexPath.row]["url"] ?? "url Error")
+//                do {
+//                    let data = try Data(contentsOf: url!)
+//                    let image = UIImage(data: data)
+//                    cell.image2view.image = image
+//                } catch let err {
+//                    print("Error: \(err.localizedDescription)")
+//                }
+
         return cell
     }
-    /*
+  
      // MARK: - Navigation
      
      // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -53,7 +62,7 @@ class ListViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
      // Get the new view controller using segue.destination.
      // Pass the selected object to the new view controller.
      }
-     */
+    
     
     func getUsers() {
             let db = Firestore.firestore()
@@ -95,6 +104,7 @@ class ListViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
                                 "title": data["title"] as? String ?? "title:Error",
                                 "content": data["content"] as? String ?? "content:Error",
                                 "name": name.first?["name"] ?? "name:Error",
+//                                "url": data["url"]as? String ?? "url:error"
                             ]
                             self.cellArray.append(cell)
                         }

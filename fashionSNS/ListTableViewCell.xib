@@ -80,6 +80,7 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="contentTextView" destination="Fs6-q2-TpJ" id="Hxo-Ml-DL9"/>
+                <outlet property="image2view" destination="NaC-j7-1kJ" id="Re7-xb-1wh"/>
                 <outlet property="nameLabel" destination="FeJ-i9-RlE" id="cQf-XL-2nh"/>
                 <outlet property="titleLabel" destination="vtF-Yh-9y1" id="UsV-I7-2UO"/>
             </connections>
