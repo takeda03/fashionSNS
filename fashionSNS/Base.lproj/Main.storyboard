@@ -76,17 +76,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ouN-Ok-RMQ">
-                                <rect key="frame" x="288" y="20" width="71" height="34.5"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="投稿"/>
-                                <connections>
-                                    <segue destination="WDz-Xd-Jsz" kind="presentation" id="GgG-IT-Wul"/>
-                                </connections>
-                            </button>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="gvz-fp-S3F">
-                                <rect key="frame" x="0.0" y="57" width="375" height="590"/>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="eQ0-Wb-3GV">
+                                <rect key="frame" x="0.0" y="20" width="375" height="32"/>
+                                <segments>
+                                    <segment title="最新"/>
+                                    <segment title="お気に入り"/>
+                                </segments>
+                            </segmentedControl>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="gvz-fp-S3F">
+                                <rect key="frame" x="0.0" y="59" width="375" height="588"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <button key="tableHeaderView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="ouN-Ok-RMQ">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="34.5"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" title="投稿"/>
+                                    <connections>
+                                        <segue destination="WDz-Xd-Jsz" kind="presentation" id="GgG-IT-Wul"/>
+                                    </connections>
+                                </button>
                                 <connections>
                                     <outlet property="dataSource" destination="OKF-VL-JNf" id="yi0-Wf-EJr"/>
                                     <outlet property="delegate" destination="OKF-VL-JNf" id="kqg-Y7-mjo"/>
@@ -96,13 +105,7 @@
                         <viewLayoutGuide key="safeArea" id="vaq-R7-s7N"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="ouN-Ok-RMQ" firstAttribute="leading" secondItem="gvz-fp-S3F" secondAttribute="trailing" constant="-87" id="0Kh-j5-EXx"/>
-                            <constraint firstItem="gvz-fp-S3F" firstAttribute="leading" secondItem="vaq-R7-s7N" secondAttribute="leading" id="6FQ-xa-2fH"/>
-                            <constraint firstItem="gvz-fp-S3F" firstAttribute="bottom" secondItem="vaq-R7-s7N" secondAttribute="bottom" id="ANH-ew-O3u"/>
-                            <constraint firstItem="gvz-fp-S3F" firstAttribute="top" secondItem="ouN-Ok-RMQ" secondAttribute="bottom" constant="2.5" id="Atj-Ce-T4j"/>
-                            <constraint firstItem="ouN-Ok-RMQ" firstAttribute="top" secondItem="vaq-R7-s7N" secondAttribute="top" constant="20" id="Bl2-EI-kr3"/>
-                            <constraint firstItem="vaq-R7-s7N" firstAttribute="trailing" secondItem="ouN-Ok-RMQ" secondAttribute="trailing" constant="16" id="P5U-PO-KWq"/>
-                            <constraint firstItem="gvz-fp-S3F" firstAttribute="trailing" secondItem="vaq-R7-s7N" secondAttribute="trailing" id="vta-qJ-mIQ"/>
+                            <constraint firstItem="eQ0-Wb-3GV" firstAttribute="top" secondItem="vaq-R7-s7N" secondAttribute="top" constant="20" id="zCC-XM-GAG"/>
                         </constraints>
                     </view>
                     <connections>

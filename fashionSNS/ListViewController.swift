@@ -12,7 +12,10 @@ import FirebaseFirestore
 class ListViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
     @IBOutlet var tableView: UITableView!
-    
+    @IBAction func segmentedControl(_ sender: UISegmentedControl) {
+           print(sender.titleForSegment(at: sender.selectedSegmentIndex)!)
+       }
+
     var userListener: ListenerRegistration?
     var postListener: ListenerRegistration?
     var cellArray: [Dictionary<String, String>] = []
@@ -43,14 +46,14 @@ class ListViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         cell.nameLabel.text = cellArray[indexPath.row]["name"] ?? "Name:Error"
         cell.titleLabel.text = cellArray[indexPath.row]["title"] ?? "Title:Error"
         cell.contentTextView.text = cellArray[indexPath.row]["content"] ?? "Content:Error"
-//        let url = URL(string: cellArray[indexPath.row]["url"] ?? "url Error")
-//                do {
-//                    let data = try Data(contentsOf: url!)
-//                    let image = UIImage(data: data)
-//                    cell.image2view.image = image
-//                } catch let err {
-//                    print("Error: \(err.localizedDescription)")
-//                }
+        let url = URL(string: cellArray[indexPath.row]["url"] ?? "url Error")
+               do {
+                   let data = try Data(contentsOf: url!)
+                  let image = UIImage(data: data)
+                 cell.image2view.image = image
+               } catch let err {
+                   print("Error: \(err.localizedDescription)")
+               }
 
         return cell
     }
@@ -104,7 +107,7 @@ class ListViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
                                 "title": data["title"] as? String ?? "title:Error",
                                 "content": data["content"] as? String ?? "content:Error",
                                 "name": name.first?["name"] ?? "name:Error",
-//                                "url": data["url"]as? String ?? "url:error"
+                           "url": data["url"]as? String ?? "url:error"
                             ]
                             self.cellArray.append(cell)
                         }

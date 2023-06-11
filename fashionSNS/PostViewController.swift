@@ -86,7 +86,7 @@ class PostViewController: UIViewController, UIImagePickerControllerDelegate, UIN
                             }
                               // ドキュメントを上書きする
                               Firestore.firestore().collection("posts").document("\(ref!.documentID)").updateData([
-                            "url": url
+                                "url": url?.absoluteString
                           ]) { err in
                             if let err = err {
                               print("Error updating document: \(err)")

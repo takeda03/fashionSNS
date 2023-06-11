@@ -60,6 +60,21 @@
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                     </textView>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dty-Tc-XDC">
+                        <rect key="frame" x="273" y="15" width="24" height="14"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Dh-lV-39t">
+                        <rect key="frame" x="273" y="30" width="47" height="35"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" title="💖"/>
+                        <connections>
+                            <action selector="tapnicebutton" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Unz-Uu-RFp"/>
+                        </connections>
+                    </button>
                 </subviews>
                 <constraints>
                     <constraint firstItem="2Q6-Xy-oto" firstAttribute="top" secondItem="Fs6-q2-TpJ" secondAttribute="bottom" constant="10" id="9ud-ww-Eem"/>
@@ -82,6 +97,7 @@
                 <outlet property="contentTextView" destination="Fs6-q2-TpJ" id="Hxo-Ml-DL9"/>
                 <outlet property="image2view" destination="NaC-j7-1kJ" id="Re7-xb-1wh"/>
                 <outlet property="nameLabel" destination="FeJ-i9-RlE" id="cQf-XL-2nh"/>
+                <outlet property="nicebutton" destination="9Dh-lV-39t" id="3Ut-CD-2zi"/>
                 <outlet property="titleLabel" destination="vtF-Yh-9y1" id="UsV-I7-2UO"/>
             </connections>
             <point key="canvasLocation" x="28.244274809160306" y="189.78873239436621"/>

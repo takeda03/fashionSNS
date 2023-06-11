@@ -50,7 +50,7 @@ class ViewController: UIViewController {
         let email = loginMailTextField.text ?? ""
         let password = loginPasswordTextField.text ?? ""
         
-        Auth.auth().signIn(withEmail: email, password: password) { (result, error) in
+        Auth.auth().signIn(withEmail: "aiueo@aiueo.com", password: "aiueoaiueo") { (result, error) in
             if (result?.user) != nil {
                 self.performSegue(withIdentifier: "ToTopView", sender: nil)
             } else {
