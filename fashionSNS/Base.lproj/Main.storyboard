@@ -76,7 +76,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="eQ0-Wb-3GV">
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="eQ0-Wb-3GV">
                                 <rect key="frame" x="0.0" y="20" width="375" height="32"/>
                                 <segments>
                                     <segment title="最新"/>
@@ -105,6 +105,8 @@
                         <viewLayoutGuide key="safeArea" id="vaq-R7-s7N"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="eQ0-Wb-3GV" firstAttribute="leading" secondItem="vaq-R7-s7N" secondAttribute="leading" id="eqs-9X-QAx"/>
+                            <constraint firstItem="eQ0-Wb-3GV" firstAttribute="trailing" secondItem="vaq-R7-s7N" secondAttribute="trailing" id="zBn-xK-h6O"/>
                             <constraint firstItem="eQ0-Wb-3GV" firstAttribute="top" secondItem="vaq-R7-s7N" secondAttribute="top" constant="20" id="zCC-XM-GAG"/>
                         </constraints>
                     </view>
