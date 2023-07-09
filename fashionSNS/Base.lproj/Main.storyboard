@@ -114,6 +114,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="segmentedControl" destination="eQ0-Wb-3GV" id="rg9-pO-LzJ"/>
                         <outlet property="tableView" destination="gvz-fp-S3F" id="ppk-Ih-c2M"/>
                     </connections>
                 </viewController>
